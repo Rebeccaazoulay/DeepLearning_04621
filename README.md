@@ -1,5 +1,5 @@
-# DeepLearning_04621
-Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure
+# Spotify Popularity Prediction with Mamba Model
+Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure. The dataset used is the Spotify Audio Features dataset from November 2018.
 
 Based on the paper:
 
@@ -12,15 +12,14 @@ Video:
 ![spotify](https://github.com/Rebeccaazoulay/DeepLearning_04621/assets/102752965/db7feed7-7c79-4d8f-9010-470095dd2196)
 
 
-Github Link : [https://github.com/taldatech/pytorch-ls-ddpg](https://github.com/Rebeccaazoulay/DeepLearning_04621)
+Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
 
   * [Background](#background)
   * [Prerequisites](#prerequisites)
-  * [Files in the repository](#files-in-the-repository)
-  * [API (`ls_dqn_main.py --help`)](#api---ls-dqn-mainpy---help--)
+  * [Installation](#installation)
+  * [Usage](#usage)
   * [Playing](#playing)
-  * [Training](#training)
-  * [TensorBoard](#tensorboard)
+  * [Dataset](#dataset)
   * [References](#references)
 
 ## Background
@@ -37,20 +36,6 @@ a big Song Dataset, a collection of audio features and metadata for approximatel
 - pandas
 - numpy
 - optuna
-
-## Files in the repository
-
-|File name         | Purpsoe |
-|----------------------|------|
-|`ls_dqn_main.py`| general purpose main application for training/playing a LS-DQN agent|
-|`pong_ls_dqn.py`| main application tailored for Atari's Pong|
-|`boxing_ls_dqn.py`| main application tailored for Atari's Boxing|
-|`dqn_play.py`| sample code for playing a game, also in `ls_dqn_main.py`|
-
-
-# Spotify Popularity Prediction with Mamba Model
-
-This repository contains code for training and evaluating a popularity prediction model for Spotify songs using the Mamba model architecture. The dataset used is the Spotify Audio Features dataset from November 2018.
 
 ## Installation
 
