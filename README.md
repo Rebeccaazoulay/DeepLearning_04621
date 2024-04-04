@@ -3,7 +3,7 @@ Predicting a song's popularity based on the most popular songs on Spotify using 
 
 Based on the paper:
 
-Nir Levine, Tom Zahavy, Daniel J. Mankowitz, Aviv Tamar, Shie Mannor [Shallow Updates for Deep Reinforcement Learning](https://cs230.stanford.edu/files_winter_2018/projects/6970963.pdf)
+James Pham, Edric Kyauk, Edwin Park [Predicting Song Popularity](https://cs230.stanford.edu/files_winter_2018/projects/6970963.pdf)
 
 Video:
 
@@ -20,7 +20,6 @@ Github Link : [https://github.com/taldatech/pytorch-ls-ddpg](https://github.com/
   * [API (`ls_dqn_main.py --help`)](#api---ls-dqn-mainpy---help--)
   * [Playing](#playing)
   * [Training](#training)
-  * [Playing Atari on Windows](#playing-atari-on-windows)
   * [TensorBoard](#tensorboard)
   * [References](#references)
 
@@ -82,7 +81,7 @@ TensorBoard logs are written dynamically during the runs, and it possible to obs
 ## References
 * https://cs230.stanford.edu/projects_fall_2020/reports/55822810.pdf
 * https://cs229.stanford.edu/proj2015/140_report.pdf
-* https://github.com/MattD82/Predicting-Spotify-Song-Popularity/blob/master/README.md}
-* https://github.com/twillstw/Spotify-Popularity-Prediction/tree/master}
-* https://towardsdatascience.com/song-popularity-predictor-1ef69735e380}
+* https://github.com/MattD82/Predicting-Spotify-Song-Popularity/blob/master/README.md
+* https://github.com/twillstw/Spotify-Popularity-Prediction/tree/master
+* https://towardsdatascience.com/song-popularity-predictor-1ef69735e380
   
