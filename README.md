@@ -27,14 +27,16 @@ Github Link : [https://github.com/taldatech/pytorch-ls-ddpg](https://github.com/
 Predicting song popularity is particularly important in keeping businesses competitive within a growing music industry. But what exactly makes a song popular? Starting with
 a big Song Dataset, a collection of audio features and metadata for approximately 5000 songs, we implemented a Mamba architecure to predict popularity and determined the types of features that hold the most predictive power. We wanted to compare the results to the one obtained with different classification and regression algorithms.
 
-
 ## Prerequisites
-|Library         | Version |
-|----------------------|----|
-|`Python`|  `3.5.5 (Anaconda)`|
-|`torch`|  `0.4.1`|
-|`tensorboard`|  `1.12.0`|
 
+- Python 3.x
+- PyTorch
+- scikit-learn
+- matplotlib
+- mamba_ssm
+- pandas
+- numpy
+- optuna
 
 ## Files in the repository
 
@@ -46,37 +48,31 @@ a big Song Dataset, a collection of audio features and metadata for approximatel
 |`dqn_play.py`| sample code for playing a game, also in `ls_dqn_main.py`|
 
 
-## API (`ls_dqn_main.py --help`)
+# Spotify Popularity Prediction with Mamba Model
 
+This repository contains code for training and evaluating a popularity prediction model for Spotify songs using the Mamba model architecture. The dataset used is the Spotify Audio Features dataset from November 2018.
 
-You should use the `ls_dqn_main.py` file with the following arguments:
+## Installation
 
-|Argument                 | Description                                 |
-|-------------------------|---------------------------------------------|
-|-h, --help       | shows arguments description             |
-|-t, --train     | train or continue training an agent  |
-|-p, --play    | play the environment using an a pretrained agent |
-|-n, --name       | model name, for saving and loading |
-|-k, --lsdqn	| use LS-DQN (apply LS-UPDATE every N_DRL), default: false |
-|-j, --boosting| use Boosted-FQI as SRL algorithm, default: false |
+To install the necessary dependencies, run:
+pip install mamba_ssm
 
+## Usage
 
-## Training
+1. Clone the repository:
+git clone https://github.com/your_username/spotify-popularity-prediction.git
 
-Examples:
+2. Navigate to the project directory:
+cd spotify-popularity-prediction
 
-* `python ls_dqn_main.py --train --lsdqn -e boxing -l 10 -b 64`
-* `python ls_dqn_main.py --train --lsdqn --boosting --dueling -m -e boxing -l 1000 -b 64`
+3. Run the provided Python script:
+python train_model.py
 
-For full description of the flags, see the full API.
+This script trains the Mamba model on the Spotify dataset, performs hyperparameter tuning using Optuna, and evaluates the model's performance.
 
-## TensorBoard
+## Dataset
 
-TensorBoard logs are written dynamically during the runs, and it possible to observe the training progress using the graphs. In order to open TensoBoard, navigate to the source directory of the project and in the terminal/cmd:
-
-`tensorboard --logdir=./runs`
-
-* make sure you have the correct environment activated (`conda activate env-name`) and that you have `tensorboard`, `tensorboardX` installed.
+The dataset used for this project is the [Spotify Audio Features dataset](https://www.kaggle.com/nadintamer/top-tracks-of-2017), which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
 
 ## References
 * https://cs230.stanford.edu/projects_fall_2020/reports/55822810.pdf
