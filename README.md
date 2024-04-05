@@ -24,7 +24,7 @@ Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
 
 ## Background
 Predicting song popularity is particularly important in keeping businesses competitive within a growing music industry. But what exactly makes a song popular? Starting with
-a big Song Dataset, a collection of audio features and metadata for approximately 5000 songs, we implemented a Mamba architecure to predict popularity and determined the types of features that hold the most predictive power. We wanted to compare the results to the one obtained with different classification and regression algorithms.
+a big Song Dataset, a collection of audio features and metadata for 116,372 songs, we implemented a Mamba architecure to predict popularity and determined the types of features that hold the most predictive power. We wanted to compare the results to the one obtained with different classification and regression algorithms.
 
 ## Prerequisites
 
