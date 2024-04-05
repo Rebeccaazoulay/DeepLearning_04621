@@ -57,7 +57,7 @@ This script trains the Mamba model on the Spotify dataset, performs hyperparamet
 
 ## Dataset
 
-The dataset used for this project is the [Spotify Audio Features dataset](https://www.kaggle.com/nadintamer/top-tracks-of-2017), which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
+The dataset used for this project is the [Spotify Audio Features dataset](https://www.kaggle.com/nadintamer/top-tracks-of-2017), made of 116,372 songs which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
 
 ## References
 * https://cs230.stanford.edu/projects_fall_2020/reports/55822810.pdf
