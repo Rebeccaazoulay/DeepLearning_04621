@@ -18,7 +18,6 @@ Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Playing](#playing)
   * [Dataset](#dataset)
   * [References](#references)
 
