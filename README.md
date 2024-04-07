@@ -9,7 +9,7 @@ Video:
 
 [YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
 <center>
-    <img src="assets/images/spotify.png">
+    <img src="assets/Images/Spotify.png">
 </center>
 
 
