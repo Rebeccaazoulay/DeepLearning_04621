@@ -58,7 +58,7 @@ cd spotify-popularity-prediction
 3. Run the provided Python script:
 python train_model.py
 
-This script trains the Mamba model on the Spotify dataset, performs hyperparameter tuning using Optuna, and evaluates the model's performance.
+This script trains the Mamba model on the Spotify dataset, performs hyperparameter tuning, and evaluates the model's performance.
 
 ## Dataset
 
