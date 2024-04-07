@@ -8,8 +8,9 @@ James Pham, Edric Kyauk, Edwin Park [Predicting Song Popularity](https://cs230.s
 Video:
 
 [YouTube](https://youtu.be/i8Cnas7QrMc) - https://youtu.be/i8Cnas7QrMc
-
-![spotify](https://github.com/Rebeccaazoulay/DeepLearning_04621/assets/102752965/db7feed7-7c79-4d8f-9010-470095dd2196)
+<center>
+    <img src="![spotify](https://github.com/Rebeccaazoulay/DeepLearning_04621/assets/102752965/db7feed7-7c79-4d8f-9010-470095dd2196)">
+</center>
 
 
 Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
