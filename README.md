@@ -33,6 +33,7 @@ the Mamba architecture yielded similar results to linear regression, prompting f
 investigation.
 
 ## Method
+# Mamba
 To enable handling long data sequences, Mamba incorporates the Structured State Space sequence model (S4).S4 can effectively and efficiently model long dependencies by combining the strengths of continuous-time, recurrent, and convolutional models, enabling it to handle irregularly sampled data, have unbounded context, and remain computationally efficient both during training and testing.
 
 Mamba, building on the S4 model, introduces significant enhancements, particularly in its treatment of time-variant operations. Central to its design is a unique selection mechanism that adapts structured state space model (SSM) parameters based on the input. This enables Mamba to selectively focus on relevant information within sequences, effectively filtering out less pertinent data. The model transitions from a time-invariant to a time-varying framework, which impacts both the computation and efficiency of the system.
