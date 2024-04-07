@@ -42,9 +42,16 @@ To address the computational challenges introduced by this time-variance, Mamba 
 
 Additionally, Mamba simplifies its architecture by integrating the SSM design with MLP blocks, resulting in a homogeneous and streamlined structure, furthering the model's capability for general sequence modeling across various data types, including language, audio, and genomics, while maintaining efficiency in both training and inference.
 
-
 ## Dataset
 We constructed a comprehensive song dataset that contains a plethora of feature types for 4,771 tracks from the last 50 years. This dataset was compiled by aggregating 50 Spotify playlist IDs, representing the annual top 100 tracks over 50 years. Through the use of Spotipy, Spotify’s web API, we were able to retrieve detailed audio features and metadata for each track. Those audio features are number-type features such as the general loudness or acousticness of a song and the metadata are string-type features such as song name, song id and the names of artists. We divided the dataset so that 80\% of the tracks were used for training and 20\% were used for testing. Additionally, normalization procedures were applied to the features with a normal distributionfeatures.
+
+## Model Architecture
+<img width="320" alt="Mamba_model" src="https://github.com/Rebeccaazoulay/Predicting-a-song-s-popularity-using-Mamba/assets/164641099/d78c8f96-1040-44ca-b8a6-80ec6d9325f0">
+
+
+
+## Results
+
 
 ## Prerequisites
 
