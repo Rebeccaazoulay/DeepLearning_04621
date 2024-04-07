@@ -1,5 +1,5 @@
 # Spotify Popularity Prediction with Mamba Model
-Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure. The dataset used is the Spotify Audio Features dataset from November 2018.
+Predicting a song's popularity based on the most popular songs on Spotify using Mamba architecure. The dataset used is a Spotify Audio Features dataset.
 
 Based on the paper:
 
@@ -22,8 +22,15 @@ Github Link : (https://github.com/Rebeccaazoulay/DeepLearning_04621)
   * [References](#references)
 
 ## Background
-Predicting song popularity is particularly important in keeping businesses competitive within a growing music industry. But what exactly makes a song popular? Starting with
-a big Song Dataset, a collection of audio features and metadata for 4,471 songs songs, we implemented a Mamba architecure to predict popularity and determined the types of features that hold the most predictive power. We wanted to compare the results to the one obtained with different classification and regression algorithms.
+Predicting the popularity of songs is crucial for businesses aiming to remain competitive
+in the ever-expanding music industry. Initial attempts to predict popularity using basic
+machine learning techniques, including linear regression and logistic regression, yielded
+modest results. Our project explores the various factors influencing song popularity by
+utilizing a dataset comprising audio features and metadata for 4,771 tracks spanning the
+last 50 years. Leveraging the Mamba architecture, a deep learning model customized for
+long sequence modeling, our project aimed to enhance prediction accuracy. Surprisingly,
+the Mamba architecture yielded similar results to linear regression, prompting further
+investigation.
 
 ## Prerequisites
 
@@ -34,7 +41,6 @@ a big Song Dataset, a collection of audio features and metadata for 4,471 songs 
 - mamba_ssm
 - pandas
 - numpy
-- optuna
 
 ## Installation
 
@@ -56,7 +62,7 @@ This script trains the Mamba model on the Spotify dataset, performs hyperparamet
 
 ## Dataset
 
-The dataset used for this project is the [Spotify Audio Features dataset](https://www.kaggle.com/nadintamer/top-tracks-of-2017), made of 4,471 songs which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
+The dataset used for this project is the [Spotify Audio Features dataset], made of 4,471 songs which includes various audio features of Spotify songs such as acousticness, danceability, energy, tempo, etc.
 
 ## References
 * https://cs230.stanford.edu/projects_fall_2020/reports/55822810.pdf
