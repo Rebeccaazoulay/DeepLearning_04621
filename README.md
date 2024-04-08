@@ -60,15 +60,15 @@ pip install mamba_ssm
 ## Usage
 
 1. Clone the repository:
-git clone https://github.com/your_username/spotify-popularity-prediction.git
+git clone [https://github.com/your_username/spotify-popularity-prediction.git](https://github.com/Itamar-Horowitz/Predicting-A-Song-s-Popularity-Using-Mamba.git)
 
 2. Navigate to the project directory:
-cd spotify-popularity-prediction
+cd Predicting-A-Song-s-Popularity-Using-Mamba
 
-3. Run the provided Python script:
-python train_model.py
+3. Run the provided Jupiter Notebook file:
+songs_popularity_predictor.ipynb
 
-This script trains the Mamba model on the Spotify dataset, performs hyperparameter tuning, and evaluates the model's performance.
+This file trains the Mamba model on the Spotify dataset and evaluates the model's performance.
 
 ## References
 * https://github.com/state-spaces/mamba
